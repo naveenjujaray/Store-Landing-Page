@@ -1,0 +1,26 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+html {
+    scroll-behavior: smooth;
+}
+  
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header,
+section,
+footer {
+    margin: 0;
+    padding: 1px; /* tweaked from 0 to 1px */
+}
+back-to-top {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    display: none;
+}
